@@ -1,0 +1,52 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Test Product",
+    "description": "Product for testing",
+    "code": "test123",
+    "price": 9.99,
+    "status": true,
+    "stock": 4,
+    "category": "Test Products",
+    "thumbnails": [
+      "img1.jpg",
+      "img2.jpg"
+    ]
+  },
+  "2": {
+    "id": 2,
+    "title": "Test Product",
+    "description": "Product for testing",
+    "code": "test1231",
+    "price": 9.99,
+    "status": true,
+    "stock": 4,
+    "category": "Test Products",
+    "thumbnails": [
+      "img1.jpg",
+      "img2.jpg"
+    ]
+  },
+  "3": {
+    "id": 3,
+    "title": "asd",
+    "description": "qwe qwe qwe qwe",
+    "code": "ertert",
+    "price": 67,
+    "status": true,
+    "stock": 123,
+    "category": "sdfsdf",
+    "thumbnails": []
+  },
+  "4": {
+    "id": 4,
+    "title": "asd",
+    "description": "qwe qwe qwe qwe",
+    "code": "ertertd",
+    "price": 67,
+    "status": true,
+    "stock": 123,
+    "category": "sdfsdf",
+    "thumbnails": []
+  }
+}
