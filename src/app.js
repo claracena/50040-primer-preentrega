@@ -23,7 +23,7 @@ app.use(express.static(__dirname + '/public'));
 app.use('/', viewsRouter);
 
 io.on('connection', (socket) => {
-    // console.log('Nuevo cliente conectado: ', socket.id);
+    console.log('Nuevo cliente conectado: ', socket.id);
 
     // socket.on('message', (data) => {
     //     console.log(data);
@@ -40,7 +40,7 @@ io.on('connection', (socket) => {
 
     socket.on('new product', (data) => {
         postProductIo(data.title, data.desc, data.code, data.price, data.stat, data.stock, data.category, data.thumb);
-        // console.log(data);
+        console.log('Enviado usando websockets');
 
         const allProducts = getProducts();
         socket.emit('updated', { products: allProducts });

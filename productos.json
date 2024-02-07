@@ -48,5 +48,16 @@
     "stock": 123,
     "category": "sdfsdf",
     "thumbnails": []
+  },
+  "5": {
+    "id": 5,
+    "title": "asd",
+    "description": "qwe qwe qwe qwe",
+    "code": "ertertt",
+    "price": 67,
+    "status": true,
+    "stock": 123,
+    "category": "sdfsdf",
+    "thumbnails": []
   }
 }
